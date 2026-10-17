@@ -1,0 +1,335 @@
+1
+00:00:00,000 --> 00:00:01,667
+I came to Montréal at 16,
+
+2
+00:00:01,667 --> 00:00:04,667
+thinking French would be easy to get through,
+
+3
+00:00:05,867 --> 00:00:08,800
+but I ended up grinding it out in the French
+
+4
+00:00:08,800 --> 00:00:11,067
+welcome class for two whole years,
+
+5
+00:00:12,267 --> 00:00:15,400
+because here your French has to reach the level
+
+6
+00:00:15,400 --> 00:00:17,867
+for your age before you can move on —
+
+7
+00:00:17,867 --> 00:00:19,867
+like me, I was 17 at the time,
+
+8
+00:00:19,867 --> 00:00:22,800
+so my French had to be at Secondary 5 level,
+
+9
+00:00:24,000 --> 00:00:25,600
+and for someone like me,
+
+10
+00:00:25,600 --> 00:00:28,267
+who had never studied French and arrived
+
+11
+00:00:28,267 --> 00:00:30,600
+knowing only “bonjour” and “merci”,
+
+12
+00:00:30,600 --> 00:00:32,000
+it was just too hard.
+
+13
+00:00:33,200 --> 00:00:36,133
+So I transferred to an adult high school and
+
+14
+00:00:36,133 --> 00:00:38,133
+finished all my courses there.
+
+15
+00:00:39,333 --> 00:00:42,000
+Because I finished my courses in winter,
+
+16
+00:00:42,000 --> 00:00:45,800
+there weren't many programs I could apply to at the time.
+
+17
+00:00:47,000 --> 00:00:49,200
+I figured, since I'm here anyway,
+
+18
+00:00:49,200 --> 00:00:51,000
+I might as well go for it —
+
+19
+00:00:51,000 --> 00:00:53,267
+so I chose International Business.
+
+20
+00:00:54,467 --> 00:00:58,667
+It turned out I did really well in my college language courses,
+
+21
+00:00:59,867 --> 00:01:02,600
+but the finance courses in my program and
+
+22
+00:01:02,600 --> 00:01:05,733
+Western history left me completely overwhelmed.
+
+23
+00:01:06,933 --> 00:01:09,467
+In my first semester I failed history,
+
+24
+00:01:09,467 --> 00:01:12,667
+no surprise. I barely passed my program courses.
+
+25
+00:01:13,867 --> 00:01:16,667
+Around then, because I loved playing Dota,
+
+26
+00:01:16,667 --> 00:01:19,733
+I met a good friend online who had just done a
+
+27
+00:01:19,733 --> 00:01:21,400
+year of computer science.
+
+28
+00:01:22,600 --> 00:01:25,267
+He recommended I study computer science.
+
+29
+00:01:25,267 --> 00:01:27,600
+So I switched over, just like that,
+
+30
+00:01:28,800 --> 00:01:31,200
+learned lots of different languages,
+
+31
+00:01:31,200 --> 00:01:33,067
+both front end and back end,
+
+32
+00:01:33,067 --> 00:01:35,067
+and graduated without a hitch.
+
+33
+00:01:35,067 --> 00:01:38,133
+Then a friend referred me to a job at Lowkler.
+
+34
+00:01:39,333 --> 00:01:40,533
+There,
+
+35
+00:01:40,533 --> 00:01:44,333
+I learned for the first time how to start up a React app.
+
+36
+00:01:45,533 --> 00:01:47,867
+I learned Slack, how to use GitHub,
+
+37
+00:01:47,867 --> 00:01:49,733
+how to work in Agile cycles,
+
+38
+00:01:49,733 --> 00:01:52,000
+and how to assign tasks in Trello.
+
+39
+00:01:53,200 --> 00:01:55,600
+There I built an e-commerce website:
+
+40
+00:01:55,600 --> 00:01:58,533
+a supply site that cut out the middlemen and
+
+41
+00:01:58,533 --> 00:02:01,533
+connected warehouses directly with web users,
+
+42
+00:02:02,733 --> 00:02:05,333
+but then the internship came to an end.
+
+43
+00:02:05,333 --> 00:02:08,533
+Afterwards I went back to taking classes at ÉTS,
+
+44
+00:02:08,533 --> 00:02:11,733
+while looking for every kind of job opportunity,
+
+45
+00:02:12,933 --> 00:02:16,267
+and later landed a role as a Full Stack Developer.
+
+46
+00:02:16,267 --> 00:02:18,867
+Orispark — Remote | Jul 2024 – Jan 2025
+
+47
+00:02:20,067 --> 00:02:23,000
+Contributed to an internal management system
+
+48
+00:02:23,000 --> 00:02:25,467
+for Tsinghua Wuxi Research Institute,
+
+49
+00:02:25,467 --> 00:02:27,867
+a state-owned institutional project,
+
+50
+00:02:27,867 --> 00:02:31,000
+translating URS documents and client UI designs
+
+51
+00:02:31,000 --> 00:02:33,600
+into production-ready frontend modules.
+
+52
+00:02:34,800 --> 00:02:38,933
+Independently developed React and TypeScript pages with Redux,
+
+53
+00:02:38,933 --> 00:02:41,000
+Material UI, custom components,
+
+54
+00:02:41,000 --> 00:02:42,467
+and SVG-based layouts,
+
+55
+00:02:42,467 --> 00:02:46,867
+improving visual consistency across internal management workflows.
+
+56
+00:02:48,067 --> 00:02:51,067
+Integrated frontend modules with a Python MVC
+
+57
+00:02:51,067 --> 00:02:54,467
+backend through Axios to retrieve database records,
+
+58
+00:02:54,467 --> 00:02:57,333
+submit form data, handle validation errors,
+
+59
+00:02:57,333 --> 00:03:00,400
+and keep displayed business data synchronized.
+
+60
+00:03:01,600 --> 00:03:04,600
+Built reusable forms, record tables, filters,
+
+61
+00:03:04,600 --> 00:03:07,667
+and detail views for internal data management,
+
+62
+00:03:07,667 --> 00:03:10,667
+reducing repetitive page-level implementation
+
+63
+00:03:10,667 --> 00:03:13,400
+and making future module delivery faster.
+
+64
+00:03:14,600 --> 00:03:18,800
+Worked with product and backend teams to confirm API contracts,
+
+65
+00:03:18,800 --> 00:03:21,733
+field mappings, and client feedback updates,
+
+66
+00:03:21,733 --> 00:03:25,067
+reducing integration issues during testing cycles.
+
+67
+00:03:26,267 --> 00:03:28,600
+After that, I kept studying at ÉTS.
+
+68
+00:03:28,600 --> 00:03:29,933
+With the rise of AI,
+
+69
+00:03:29,933 --> 00:03:32,067
+there were fewer and fewer jobs,
+
+70
+00:03:32,067 --> 00:03:35,133
+so I decided to keep sending out résumés while
+
+71
+00:03:35,133 --> 00:03:37,000
+building fun things with AI.
+
+72
+00:03:38,200 --> 00:03:40,667
+During this time I built PartnerHub (
+
+73
+00:03:40,667 --> 00:03:44,400
+I was on LinkedIn and Indeed every day looking for work,
+
+74
+00:03:44,400 --> 00:03:47,267
+so I made something with similar features —
+
+75
+00:03:47,267 --> 00:03:49,467
+when you use something every day,
+
+76
+00:03:49,467 --> 00:03:51,667
+how could you not get used to it?
+
+77
+00:03:52,867 --> 00:03:55,600
+and SmartDépanneur ( my mom runs a store,
+
+78
+00:03:55,600 --> 00:03:57,467
+so I wanted to help her out)
+
+79
+00:03:58,667 --> 00:04:01,800
+A friend of my mom's who works as a real estate
+
+80
+00:04:01,800 --> 00:04:05,067
+broker asked me to build a property listing site:
+
+81
+00:04:05,067 --> 00:04:06,400
+Propriété En Vente —
+
+82
+00:04:06,400 --> 00:04:08,800
+Trilingual Québec Property Platform.
+
+83
+00:04:10,000 --> 00:04:11,200
+Right now,
+
+84
+00:04:11,200 --> 00:04:13,867
+I'm still looking for job opportunities.

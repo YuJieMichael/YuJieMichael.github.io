@@ -1,0 +1,494 @@
+[
+  {
+    "chapter": 1,
+    "title": {
+      "zh": "16岁，初到蒙特利尔",
+      "en": "Arriving in Montréal at 16",
+      "fr": "Arrivé à Montréal à 16 ans"
+    },
+    "scene": "蒙特利尔天际线，远处皇家山上的十字架",
+    "elements": [
+      "城市天际线与皇家山",
+      "机场出口的玻璃门",
+      "16 岁的主角拖着行李箱",
+      "主角头顶一个轻松的对勾气泡"
+    ],
+    "image": "images/1.png",
+    "start": 0.0,
+    "end": 6.756
+  },
+  {
+    "chapter": 2,
+    "title": {
+      "zh": "法语欢迎班里硬扛的两年",
+      "en": "Two Years in the French Welcome Class",
+      "fr": "Deux ans en classe d'accueil"
+    },
+    "scene": "法语欢迎班的教室，时间一页页翻过",
+    "elements": [
+      "教室黑板",
+      "一排课桌",
+      "埋头苦读的主角",
+      "墙上被撕掉很多页的日历"
+    ],
+    "image": "images/2.png",
+    "start": 6.756,
+    "end": 11.511
+  },
+  {
+    "chapter": 3,
+    "title": {
+      "zh": "中学五年级的法语门槛",
+      "en": "The Secondary 5 French Requirement",
+      "fr": "Le seuil du français de secondaire 5"
+    },
+    "scene": "一级很高的台阶，象征必须达到的法语水平",
+    "elements": [
+      "高高的台阶",
+      "台阶顶上的一扇门",
+      "17 岁的主角仰头望着",
+      "台阶旁的一把刻度尺"
+    ],
+    "image": "images/3.png",
+    "start": 11.511,
+    "end": 23.378
+  },
+  {
+    "chapter": 4,
+    "title": {
+      "zh": "只会 bonjour 和 merci",
+      "en": "Only “Bonjour” and “Merci”",
+      "fr": "Seulement « bonjour » et « merci »"
+    },
+    "scene": "主角被听不懂的话包围，只会两句简单的问候",
+    "elements": [
+      "主角站在人群边上",
+      "两个简单的对话气泡：一个挥手、一个爱心",
+      "四周一圈看不懂的符号气泡",
+      "主角额头的一滴汗"
+    ],
+    "image": "images/4.png",
+    "start": 23.378,
+    "end": 32.8
+  },
+  {
+    "chapter": 5,
+    "title": {
+      "zh": "转入成人高中",
+      "en": "Switching to Adult High School",
+      "fr": "Passage à l'éducation des adultes"
+    },
+    "scene": "转去成人高中，把课程一门门读完",
+    "elements": [
+      "成人高中的校舍",
+      "敞开的校门",
+      "走进校门的主角",
+      "一摞读完的课本"
+    ],
+    "image": "images/5.png",
+    "start": 32.8,
+    "end": 39.111
+  },
+  {
+    "chapter": 6,
+    "title": {
+      "zh": "冬季结业，专业选择不多",
+      "en": "A Winter Finish, Few Programs Open",
+      "fr": "Fin des cours en hiver, peu de programmes ouverts"
+    },
+    "scene": "冬天结业，能选的专业寥寥无几",
+    "elements": [
+      "飘雪的冬日街道",
+      "一块几乎空着的公告板，只钉着两三张纸",
+      "站在雪里看公告板的主角"
+    ],
+    "image": "images/6.png",
+    "start": 39.111,
+    "end": 45.644
+  },
+  {
+    "chapter": 7,
+    "title": {
+      "zh": "来都来了，选择国际商务",
+      "en": "Choosing International Business",
+      "fr": "Le choix du commerce international"
+    },
+    "scene": "来都来了，选了国际商务",
+    "elements": [
+      "一个地球仪",
+      "一只公文包",
+      "耸肩微笑的主角",
+      "从主角指向公文包的箭头"
+    ],
+    "image": "images/7.png",
+    "start": 45.644,
+    "end": 54.622
+  },
+  {
+    "chapter": 8,
+    "title": {
+      "zh": "语言课上的高光",
+      "en": "Acing the Language Courses",
+      "fr": "Briller dans les cours de langue"
+    },
+    "scene": "语言课学得特别好",
+    "elements": [
+      "一摞打开的书",
+      "书上方闪亮的星星",
+      "自信举手的主角"
+    ],
+    "image": "images/8.png",
+    "start": 54.622,
+    "end": 60.044
+  },
+  {
+    "chapter": 9,
+    "title": {
+      "zh": "被金融和西方历史课难住",
+      "en": "Swamped by Finance and Western History",
+      "fr": "Débordé par la finance et l'histoire occidentale"
+    },
+    "scene": "金融课和西方历史课让人焦头烂额",
+    "elements": [
+      "堆成小山的图表和古地图",
+      "抱着头的主角",
+      "主角头顶的一朵乌云"
+    ],
+    "image": "images/9.png",
+    "start": 60.044,
+    "end": 66.133
+  },
+  {
+    "chapter": 10,
+    "title": {
+      "zh": "第一学期挂科",
+      "en": "Failing History in the First Semester",
+      "fr": "Échec en histoire à la première session"
+    },
+    "scene": "第一学期挂了历史，专业课勉强过关",
+    "elements": [
+      "一张画着大叉的试卷",
+      "另一张画着小对勾的试卷",
+      "对着试卷叹气的主角"
+    ],
+    "image": "images/10.png",
+    "start": 66.133,
+    "end": 72.444
+  },
+  {
+    "chapter": 11,
+    "title": {
+      "zh": "因 Dota 结识的好朋友",
+      "en": "A Friend Met Through Dota",
+      "fr": "Un ami rencontré grâce à Dota"
+    },
+    "scene": "因为打 Dota 认识了学计算机的好朋友",
+    "elements": [
+      "一块发光的游戏屏幕",
+      "戴着耳机的主角",
+      "屏幕另一端的朋友",
+      "连接两人的一条虚线"
+    ],
+    "image": "images/11.png",
+    "start": 72.444,
+    "end": 84.311
+  },
+  {
+    "chapter": 12,
+    "title": {
+      "zh": "转读计算机科学",
+      "en": "Switching to Computer Science",
+      "fr": "Virage vers l'informatique"
+    },
+    "scene": "听朋友的建议，转去读计算机",
+    "elements": [
+      "一个岔路口，两块路牌分别画着公文包和代码括号",
+      "朋友伸手指路",
+      "主角走向代码括号那条路"
+    ],
+    "image": "images/12.png",
+    "start": 84.311,
+    "end": 92.844
+  },
+  {
+    "chapter": 13,
+    "title": {
+      "zh": "顺利毕业，走进 Lowkler",
+      "en": "Graduating and Joining Lowkler",
+      "fr": "Diplôme en poche, cap sur Lowkler"
+    },
+    "scene": "顺利毕业，经朋友介绍进入 Lowkler",
+    "elements": [
+      "一栋办公楼",
+      "穿毕业袍的主角",
+      "抛到空中的学士帽",
+      "朋友递过来的一个信封"
+    ],
+    "image": "images/13.png",
+    "start": 92.844,
+    "end": 102.489
+  },
+  {
+    "chapter": 14,
+    "title": {
+      "zh": "第一次启动 React",
+      "en": "Launching React for the First Time",
+      "fr": "Premier lancement d'une app React"
+    },
+    "scene": "第一次把 React 程序跑起来",
+    "elements": [
+      "一台笔记本电脑",
+      "屏幕上的原子图标",
+      "惊喜睁大眼睛的主角"
+    ],
+    "image": "images/14.png",
+    "start": 102.489,
+    "end": 108.133
+  },
+  {
+    "chapter": 15,
+    "title": {
+      "zh": "学会团队协作工具",
+      "en": "Learning the Team Toolkit",
+      "fr": "Apprendre les outils d'équipe"
+    },
+    "scene": "学会团队协作：沟通、代码协作、迭代、分配任务",
+    "elements": [
+      "一块贴满便利贴的看板",
+      "分支状的树形图",
+      "几个聊天气泡",
+      "主角和同事并肩站着"
+    ],
+    "image": "images/15.png",
+    "start": 108.133,
+    "end": 118.444
+  },
+  {
+    "chapter": 16,
+    "title": {
+      "zh": "去掉中间商的供应电商",
+      "en": "An E-commerce Site Without Middlemen",
+      "fr": "Un site e-commerce sans intermédiaires"
+    },
+    "scene": "做了一个去掉中间商的供应电商网站",
+    "elements": [
+      "仓库里的货架和纸箱",
+      "一个网页窗口",
+      "从仓库直连网页的粗箭头",
+      "被划掉的中间人小人"
+    ],
+    "image": "images/16.png",
+    "start": 118.444,
+    "end": 129.644
+  },
+  {
+    "chapter": 17,
+    "title": {
+      "zh": "实习结束，回到 ÉTS",
+      "en": "Internship Over, Back to ÉTS",
+      "fr": "Fin du stage, retour à l'ÉTS"
+    },
+    "scene": "实习结束，回到 ÉTS 上课，同时到处找机会",
+    "elements": [
+      "一扇关上的办公室门",
+      "ÉTS 的校园建筑",
+      "背着书包的主角",
+      "主角手里的一叠简历"
+    ],
+    "image": "images/17.png",
+    "start": 129.644,
+    "end": 138.4
+  },
+  {
+    "chapter": 18,
+    "title": {
+      "zh": "远程全栈开发岗位",
+      "en": "Full Stack Developer at Orispark",
+      "fr": "Développeur full stack chez Orispark"
+    },
+    "scene": "拿到远程全栈开发的工作",
+    "elements": [
+      "家里的书桌",
+      "两块显示器",
+      "屏幕上的视频会议窗口",
+      "戴着耳机专心工作的主角"
+    ],
+    "image": "images/18.png",
+    "start": 138.4,
+    "end": 153.6
+  },
+  {
+    "chapter": 19,
+    "title": {
+      "zh": "清华无锡研究院管理系统",
+      "en": "A Management System for Tsinghua Wuxi",
+      "fr": "Un système de gestion pour l'Institut Tsinghua de Wuxi"
+    },
+    "scene": "为研究院的内部管理系统，把需求文档和设计稿变成前端模块",
+    "elements": [
+      "一叠需求文档和设计稿",
+      "一个转化箭头",
+      "管理系统的界面框架",
+      "研究院的建筑剪影"
+    ],
+    "image": "images/19.png",
+    "start": 153.6,
+    "end": 167.911
+  },
+  {
+    "chapter": 20,
+    "title": {
+      "zh": "React + TypeScript 页面开发",
+      "en": "React & TypeScript Pages",
+      "fr": "Des pages React et TypeScript"
+    },
+    "scene": "用一块块组件拼出统一风格的页面",
+    "elements": [
+      "散落的界面组件积木",
+      "拼了一半的页面",
+      "正在拼积木的主角"
+    ],
+    "image": "images/20.png",
+    "start": 167.911,
+    "end": 187.111
+  },
+  {
+    "chapter": 21,
+    "title": {
+      "zh": "打通前后端数据",
+      "en": "Connecting Frontend and Backend",
+      "fr": "Relier le front-end au back-end"
+    },
+    "scene": "把前端和后端打通，让数据双向流动",
+    "elements": [
+      "前端界面",
+      "后端服务器机柜",
+      "连接两者的双向管道",
+      "管道里流动的数据小方块"
+    ],
+    "image": "images/21.png",
+    "start": 187.111,
+    "end": 203.867
+  },
+  {
+    "chapter": 22,
+    "title": {
+      "zh": "可复用的数据管理组件",
+      "en": "Reusable Data Management Components",
+      "fr": "Des composants réutilisables pour la gestion des données"
+    },
+    "scene": "做出可复用的表单和表格，交付越来越快",
+    "elements": [
+      "一个模具",
+      "从模具里压出的一排相同表单",
+      "满意点头的主角"
+    ],
+    "image": "images/22.png",
+    "start": 203.867,
+    "end": 216.178
+  },
+  {
+    "chapter": 23,
+    "title": {
+      "zh": "与产品和后端团队协作",
+      "en": "Working with Product and Backend Teams",
+      "fr": "Collaborer avec les équipes produit et back-end"
+    },
+    "scene": "和产品、后端团队一起对接口、改需求",
+    "elements": [
+      "一张会议桌",
+      "围坐的三个人",
+      "桌上拼合在一起的拼图块"
+    ],
+    "image": "images/23.png",
+    "start": 216.178,
+    "end": 227.378
+  },
+  {
+    "chapter": 24,
+    "title": {
+      "zh": "AI 兴起，岗位变少",
+      "en": "AI Rises, Jobs Shrink",
+      "fr": "L'essor de l'IA, moins de postes"
+    },
+    "scene": "AI 兴起，岗位越来越少，一边投简历一边用 AI 做项目",
+    "elements": [
+      "发光的 AI 芯片",
+      "一块变小的招聘公告板",
+      "一手投简历一手敲电脑的主角"
+    ],
+    "image": "images/24.png",
+    "start": 227.378,
+    "end": 239.911
+  },
+  {
+    "chapter": 25,
+    "title": {
+      "zh": "PartnerHub：天天刷招聘网站刷出来的灵感",
+      "en": "PartnerHub, Inspired by Daily Job Hunting",
+      "fr": "PartnerHub, inspiré par la recherche d'emploi quotidienne"
+    },
+    "scene": "天天刷招聘网站，于是自己做了一个 PartnerHub",
+    "elements": [
+      "一部手机，屏幕上是一列卡片",
+      "被划满记号的日历",
+      "主角做出的新平台界面"
+    ],
+    "image": "images/25.png",
+    "start": 239.911,
+    "end": 256.756
+  },
+  {
+    "chapter": 26,
+    "title": {
+      "zh": "SmartDépanneur：帮妈妈的小店",
+      "en": "SmartDépanneur, for Mom's Store",
+      "fr": "SmartDépanneur, pour le commerce de ma mère"
+    },
+    "scene": "为开便利店的妈妈做了 SmartDépanneur",
+    "elements": [
+      "街角便利店的店面",
+      "站在柜台后的妈妈",
+      "柜台上的平板管理界面",
+      "站在一旁的主角"
+    ],
+    "image": "images/26.png",
+    "start": 256.756,
+    "end": 265.511
+  },
+  {
+    "chapter": 27,
+    "title": {
+      "zh": "三语卖房平台",
+      "en": "A Trilingual Property Platform",
+      "fr": "Une plateforme immobilière trilingue"
+    },
+    "scene": "为做房产经纪的朋友做了一个三语卖房平台",
+    "elements": [
+      "一栋魁北克风格的房子",
+      "门前插着一块画着小房子图标的牌子",
+      "三个不同颜色的对话气泡",
+      "经纪人和主角握手"
+    ],
+    "image": "images/27.png",
+    "start": 265.511,
+    "end": 283.6
+  },
+  {
+    "chapter": 28,
+    "title": {
+      "zh": "依然在寻找机会",
+      "en": "Still Looking for the Next Role",
+      "fr": "Toujours à la recherche du prochain poste"
+    },
+    "scene": "依然在寻找机会，继续往前走",
+    "elements": [
+      "远处日出的地平线",
+      "一条向前延伸的路",
+      "抱着笔记本电脑向前走的主角背影"
+    ],
+    "image": "images/28.png",
+    "start": 283.6,
+    "end": 287.244
+  }
+]

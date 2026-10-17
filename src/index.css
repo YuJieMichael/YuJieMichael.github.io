@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  background: #0c0c0c;
+}
+
+html {
+  /* 全屏无滚动条：保留滚动能力，只隐藏滚动条 */
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Instrument Sans', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #e7edf2;
+  -webkit-font-smoothing: antialiased;
+  /* 按住拖动要画轨迹，不要顺带选中文字 */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #f0904e;
+  outline-offset: 3px;
+}
+
+/* 故事弹窗里 markdown 的排版 */
+.story-md h1,
+.story-md h2 {
+  margin-bottom: 0.75rem;
+  padding-right: 2.5rem;
+  font-family: 'Instrument Serif', 'Noto Serif SC', serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.story-md p {
+  margin-bottom: 1em;
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: clamp(1rem, 2vw, 1.0625rem);
+  color: rgb(231 237 242 / 0.85);
+}
+
+/* 鼠标聚光：跟随鼠标的淡橙光晕 + 边框微亮 */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: radial-gradient(420px circle at var(--mx, -999px) var(--my, -999px), rgb(240 144 78 / 0.1), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.spotlight:hover::before {
+  opacity: 1;
+}
+
+/* 首页背景的点阵网格，向四周淡出 */
+.dot-grid {
+  background-image: radial-gradient(rgb(231 237 242 / 0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 30%, transparent 75%);
+}
+
+/* 跑马灯描边字 */
+.tm-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(231 237 242 / 0.35);
+}
+
+/* 入场前隐藏，GSAP 动画再显示；减少动态效果时直接显示 */
+@media (prefers-reduced-motion: no-preference) {
+  .intro-hide {
+    visibility: hidden;
+  }
+}
+
+/* ── 杂志质感 ─────────────────────────────────────────── */
+
+/* 胶片颗粒：SVG 噪点平铺，按帧跳动位置 */
+.grain {
+  inset: -10%; /* 比屏幕大一圈，跳动时边缘不露底 */
+  opacity: 0.07;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 0.9s steps(6) infinite;
+}
+@keyframes grain-shift {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-3%, 2%); }
+  40% { transform: translate(2%, -3%); }
+  60% { transform: translate(-2%, -1%); }
+  80% { transform: translate(3%, 3%); }
+  100% { transform: translate(0, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .grain { animation: none; }
+}
+
+/* 描边大字 */
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(231, 237, 242, 0.22);
+}
+
+/* 封底刊名那种要看得清的描边 */
+.outline-strong {
+  -webkit-text-stroke: 1.5px rgba(231, 237, 242, 0.55);
+}
+
+/* 图片填充文字：底色渐变 + 线稿用 screen 叠上去，线条透出白色 */
+.image-text {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-blend-mode: screen;
+  background-size: 120% auto, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* 技能「字体样张」：悬停一个词，其他词变暗 */
+.specimen:hover .specimen-word { opacity: 0.28; }
+.specimen .specimen-word:hover { opacity: 1; color: #f0904e; font-style: italic; }

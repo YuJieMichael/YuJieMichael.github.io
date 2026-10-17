@@ -1,0 +1,395 @@
+1
+00:00:00,000 --> 00:00:03,400
+Je suis arrivé à Montréal à 16 ans en me disant que
+
+2
+00:00:03,400 --> 00:00:05,800
+le français serait facile à réussir,
+
+3
+00:00:07,000 --> 00:00:08,200
+mais finalement,
+
+4
+00:00:08,200 --> 00:00:12,067
+j'ai dû tenir bon deux longues années en classe d'accueil,
+
+5
+00:00:13,267 --> 00:00:14,467
+parce qu'ici,
+
+6
+00:00:14,467 --> 00:00:17,067
+il faut atteindre le niveau de français
+
+7
+00:00:17,067 --> 00:00:20,333
+correspondant à son âge pour passer au régulier —
+
+8
+00:00:20,333 --> 00:00:21,667
+moi, j'avais 17 ans,
+
+9
+00:00:21,667 --> 00:00:24,800
+donc il me fallait le français de secondaire 5,
+
+10
+00:00:26,000 --> 00:00:27,200
+et pour moi,
+
+11
+00:00:27,200 --> 00:00:30,333
+qui n'avais jamais étudié le français et qui ne
+
+12
+00:00:30,333 --> 00:00:33,867
+connaissais que « bonjour » et « merci » en arrivant,
+
+13
+00:00:33,867 --> 00:00:36,000
+c'était beaucoup trop difficile.
+
+14
+00:00:37,200 --> 00:00:40,200
+Je suis donc passé à l'éducation des adultes,
+
+15
+00:00:40,200 --> 00:00:42,267
+où j'ai terminé tous mes cours.
+
+16
+00:00:43,467 --> 00:00:46,000
+Comme j'ai terminé mes cours en hiver,
+
+17
+00:00:46,000 --> 00:00:49,400
+il n'y avait pas beaucoup de programmes auxquels je
+
+18
+00:00:49,400 --> 00:00:51,667
+pouvais m'inscrire à ce moment-là.
+
+19
+00:00:52,867 --> 00:00:56,333
+Je me suis dit : tant qu'à être là, autant y aller —
+
+20
+00:00:56,333 --> 00:00:59,267
+alors j'ai choisi le commerce international.
+
+21
+00:01:00,467 --> 00:01:01,667
+Résultat :
+
+22
+00:01:01,667 --> 00:01:05,400
+j'ai vraiment excellé dans les cours de langue au cégep,
+
+23
+00:01:06,600 --> 00:01:09,933
+mais les cours de finance du programme et le cours
+
+24
+00:01:09,933 --> 00:01:13,267
+d'histoire occidentale m'ont complètement débordé.
+
+25
+00:01:14,467 --> 00:01:16,933
+À la première session, sans surprise,
+
+26
+00:01:16,933 --> 00:01:19,067
+j'ai échoué au cours d'histoire.
+
+27
+00:01:19,067 --> 00:01:22,200
+J'ai réussi de justesse les cours du programme.
+
+28
+00:01:23,400 --> 00:01:25,067
+C'est à ce moment-là que,
+
+29
+00:01:25,067 --> 00:01:27,000
+grâce à ma passion pour Dota,
+
+30
+00:01:27,000 --> 00:01:30,267
+je me suis fait en ligne un bon ami qui venait de
+
+31
+00:01:30,267 --> 00:01:32,067
+faire un an d'informatique.
+
+32
+00:01:33,267 --> 00:01:36,067
+Il m'a conseillé d'étudier l'informatique.
+
+33
+00:01:36,067 --> 00:01:39,267
+Alors j'ai changé de programme, tout simplement,
+
+34
+00:01:40,467 --> 00:01:43,200
+j'ai appris plein de langages différents,
+
+35
+00:01:43,200 --> 00:01:45,267
+en front-end comme en back-end,
+
+36
+00:01:45,267 --> 00:01:48,000
+et j'ai obtenu mon diplôme sans encombre.
+
+37
+00:01:48,000 --> 00:01:49,800
+Grâce à une recommandation,
+
+38
+00:01:49,800 --> 00:01:52,733
+j'ai ensuite décroché un poste chez Lowkler.
+
+39
+00:01:53,933 --> 00:01:57,133
+C'est là que j'ai appris pour la première fois à
+
+40
+00:01:57,133 --> 00:01:59,067
+lancer une application React.
+
+41
+00:02:00,267 --> 00:02:03,133
+J'ai appris Slack, l'utilisation de GitHub,
+
+42
+00:02:03,133 --> 00:02:05,800
+le fonctionnement des cycles Agile et la
+
+43
+00:02:05,800 --> 00:02:08,133
+répartition des tâches dans Trello.
+
+44
+00:02:09,333 --> 00:02:12,067
+Là-bas, j'ai réalisé un site e-commerce :
+
+45
+00:02:12,067 --> 00:02:15,467
+une plateforme d'approvisionnement qui supprime les
+
+46
+00:02:15,467 --> 00:02:18,733
+intermédiaires et relie directement les entrepôts
+
+47
+00:02:18,733 --> 00:02:20,400
+aux utilisateurs du site,
+
+48
+00:02:21,600 --> 00:02:23,867
+mais ensuite, le stage a pris fin.
+
+49
+00:02:23,867 --> 00:02:25,867
+J'ai repris les cours à l'ÉTS,
+
+50
+00:02:25,867 --> 00:02:29,533
+tout en cherchant toutes sortes d'occasions de travail,
+
+51
+00:02:30,733 --> 00:02:34,133
+puis j'ai été embauché comme développeur full stack
+
+52
+00:02:34,133 --> 00:02:36,400
+( Full Stack Developer) Orispark —
+
+53
+00:02:36,400 --> 00:02:38,867
+Télétravail | juil. 2024 – janv. 2025
+
+54
+00:02:40,067 --> 00:02:43,133
+Participation au développement d'un système de
+
+55
+00:02:43,133 --> 00:02:47,267
+gestion interne pour l'Institut de recherche Tsinghua de Wuxi,
+
+56
+00:02:47,267 --> 00:02:49,400
+un projet institutionnel public,
+
+57
+00:02:49,400 --> 00:02:52,733
+en transformant les documents URS et les maquettes
+
+58
+00:02:52,733 --> 00:02:57,267
+d'interface du client en modules front-end prêts pour la production.
+
+59
+00:02:58,467 --> 00:03:02,933
+Développement en autonomie de pages React et TypeScript avec Redux,
+
+60
+00:03:02,933 --> 00:03:04,133
+Material UI,
+
+61
+00:03:04,133 --> 00:03:08,267
+des composants sur mesure et des mises en page basées sur SVG,
+
+62
+00:03:08,267 --> 00:03:13,067
+pour une meilleure cohérence visuelle dans les flux de gestion internes.
+
+63
+00:03:14,267 --> 00:03:17,400
+Intégration des modules front-end à un back-end
+
+64
+00:03:17,400 --> 00:03:20,000
+Python MVC via Axios pour récupérer les
+
+65
+00:03:20,000 --> 00:03:22,533
+enregistrements de la base de données,
+
+66
+00:03:22,533 --> 00:03:24,267
+soumettre les formulaires,
+
+67
+00:03:24,267 --> 00:03:27,000
+gérer les erreurs de validation et garder
+
+68
+00:03:27,000 --> 00:03:29,867
+synchronisées les données métier affichées.
+
+69
+00:03:31,067 --> 00:03:32,667
+Création de formulaires,
+
+70
+00:03:32,667 --> 00:03:34,667
+de tableaux d'enregistrements,
+
+71
+00:03:34,667 --> 00:03:38,067
+de filtres et de vues détaillées réutilisables pour
+
+72
+00:03:38,067 --> 00:03:40,133
+la gestion interne des données,
+
+73
+00:03:40,133 --> 00:03:43,467
+ce qui a réduit le travail répétitif page par page
+
+74
+00:03:43,467 --> 00:03:46,533
+et accéléré la livraison des modules suivants.
+
+75
+00:03:47,733 --> 00:03:51,067
+Collaboration avec les équipes produit et back-end
+
+76
+00:03:51,067 --> 00:03:53,200
+pour valider les contrats d'API,
+
+77
+00:03:53,200 --> 00:03:56,467
+les correspondances de champs et les mises à jour
+
+78
+00:03:56,467 --> 00:03:58,400
+issues des retours du client,
+
+79
+00:03:58,400 --> 00:04:03,133
+ce qui a réduit les problèmes d'intégration pendant les cycles de test.
+
+80
+00:04:04,333 --> 00:04:07,533
+Par la suite, j'ai poursuivi mes études à l'ÉTS.
+
+81
+00:04:07,533 --> 00:04:08,933
+Avec l'essor de l'IA,
+
+82
+00:04:08,933 --> 00:04:12,067
+les postes se faisaient de plus en plus rares ;
+
+83
+00:04:12,067 --> 00:04:15,267
+j'ai donc décidé d'envoyer des CV tout en créant
+
+84
+00:04:15,267 --> 00:04:17,333
+des projets amusants avec l'IA.
+
+85
+00:04:18,533 --> 00:04:21,533
+Pendant cette période, j'ai créé PartnerHub (
+
+86
+00:04:21,533 --> 00:04:24,933
+comme j'utilisais LinkedIn et Indeed tous les jours
+
+87
+00:04:24,933 --> 00:04:26,533
+pour chercher un emploi,
+
+88
+00:04:26,533 --> 00:04:29,933
+j'ai fait une plateforme aux fonctions similaires —
+
+89
+00:04:29,933 --> 00:04:32,467
+à force de s'en servir tous les jours,
+
+90
+00:04:32,467 --> 00:04:34,933
+on finit forcément par s'y habituer !
+
+91
+00:04:36,133 --> 00:04:39,200
+et SmartDépanneur ( ma mère tient un commerce,
+
+92
+00:04:39,200 --> 00:04:42,133
+alors je voulais lui donner un coup de main)
+
+93
+00:04:43,333 --> 00:04:45,933
+Une personne de l'entourage de ma mère,
+
+94
+00:04:45,933 --> 00:04:48,733
+qui travaille dans le courtage immobilier,
+
+95
+00:04:48,733 --> 00:04:52,133
+m'a demandé de créer un site de vente immobilière :
+
+96
+00:04:52,133 --> 00:04:53,467
+Propriété En Vente —
+
+97
+00:04:53,467 --> 00:04:55,867
+Trilingual Québec Property Platform.
+
+98
+00:04:57,067 --> 00:04:58,267
+Aujourd'hui,
+
+99
+00:04:58,267 --> 00:05:01,467
+je suis toujours en recherche active d'un poste.

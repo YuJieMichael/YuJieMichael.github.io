@@ -1,0 +1,142 @@
+[
+  {
+    "chapter": 1,
+    "title": "Arriving in Montréal at 16",
+    "text": "I came to Montréal at 16, thinking French would be easy to get through,"
+  },
+  {
+    "chapter": 2,
+    "title": "Two Years in the French Welcome Class",
+    "text": "but I ended up grinding it out in the French welcome class for two whole years,"
+  },
+  {
+    "chapter": 3,
+    "title": "The Secondary 5 French Requirement",
+    "text": "because here your French has to reach the level for your age before you can move on — like me, I was 17 at the time, so my French had to be at Secondary 5 level,"
+  },
+  {
+    "chapter": 4,
+    "title": "Only “Bonjour” and “Merci”",
+    "text": "and for someone like me, who had never studied French and arrived knowing only “bonjour” and “merci”, it was just too hard."
+  },
+  {
+    "chapter": 5,
+    "title": "Switching to Adult High School",
+    "text": "So I transferred to an adult high school and finished all my courses there."
+  },
+  {
+    "chapter": 6,
+    "title": "A Winter Finish, Few Programs Open",
+    "text": "Because I finished my courses in winter, there weren't many programs I could apply to at the time."
+  },
+  {
+    "chapter": 7,
+    "title": "Choosing International Business",
+    "text": "I figured, since I'm here anyway, I might as well go for it — so I chose International Business."
+  },
+  {
+    "chapter": 8,
+    "title": "Acing the Language Courses",
+    "text": "It turned out I did really well in my college language courses,"
+  },
+  {
+    "chapter": 9,
+    "title": "Swamped by Finance and Western History",
+    "text": "but the finance courses in my program and Western history left me completely overwhelmed."
+  },
+  {
+    "chapter": 10,
+    "title": "Failing History in the First Semester",
+    "text": "In my first semester I failed history, no surprise. I barely passed my program courses."
+  },
+  {
+    "chapter": 11,
+    "title": "A Friend Met Through Dota",
+    "text": "Around then, because I loved playing Dota, I met a good friend online who had just done a year of computer science."
+  },
+  {
+    "chapter": 12,
+    "title": "Switching to Computer Science",
+    "text": "He recommended I study computer science. So I switched over, just like that,"
+  },
+  {
+    "chapter": 13,
+    "title": "Graduating and Joining Lowkler",
+    "text": "learned lots of different languages, both front end and back end, and graduated without a hitch. Then a friend referred me to a job at Lowkler."
+  },
+  {
+    "chapter": 14,
+    "title": "Launching React for the First Time",
+    "text": "There, I learned for the first time how to start up a React app."
+  },
+  {
+    "chapter": 15,
+    "title": "Learning the Team Toolkit",
+    "text": "I learned Slack, how to use GitHub, how to work in Agile cycles, and how to assign tasks in Trello."
+  },
+  {
+    "chapter": 16,
+    "title": "An E-commerce Site Without Middlemen",
+    "text": "There I built an e-commerce website: a supply site that cut out the middlemen and connected warehouses directly with web users,"
+  },
+  {
+    "chapter": 17,
+    "title": "Internship Over, Back to ÉTS",
+    "text": "but then the internship came to an end. Afterwards I went back to taking classes at ÉTS, while looking for every kind of job opportunity,"
+  },
+  {
+    "chapter": 18,
+    "title": "Full Stack Developer at Orispark",
+    "text": "and later landed a role as a Full Stack Developer. Orispark — Remote | Jul 2024 – Jan 2025"
+  },
+  {
+    "chapter": 19,
+    "title": "A Management System for Tsinghua Wuxi",
+    "text": "Contributed to an internal management system for Tsinghua Wuxi Research Institute, a state-owned institutional project, translating URS documents and client UI designs into production-ready frontend modules."
+  },
+  {
+    "chapter": 20,
+    "title": "React & TypeScript Pages",
+    "text": "Independently developed React and TypeScript pages with Redux, Material UI, custom components, and SVG-based layouts, improving visual consistency across internal management workflows."
+  },
+  {
+    "chapter": 21,
+    "title": "Connecting Frontend and Backend",
+    "text": "Integrated frontend modules with a Python MVC backend through Axios to retrieve database records, submit form data, handle validation errors, and keep displayed business data synchronized."
+  },
+  {
+    "chapter": 22,
+    "title": "Reusable Data Management Components",
+    "text": "Built reusable forms, record tables, filters, and detail views for internal data management, reducing repetitive page-level implementation and making future module delivery faster."
+  },
+  {
+    "chapter": 23,
+    "title": "Working with Product and Backend Teams",
+    "text": "Worked with product and backend teams to confirm API contracts, field mappings, and client feedback updates, reducing integration issues during testing cycles."
+  },
+  {
+    "chapter": 24,
+    "title": "AI Rises, Jobs Shrink",
+    "text": "After that, I kept studying at ÉTS. With the rise of AI, there were fewer and fewer jobs, so I decided to keep sending out résumés while building fun things with AI."
+  },
+  {
+    "chapter": 25,
+    "title": "PartnerHub, Inspired by Daily Job Hunting",
+    "text": "During this time I built PartnerHub (I was on LinkedIn and Indeed every day looking for work, so I made something with similar features — when you use something every day, how could you not get used to it?)"
+  },
+  {
+    "chapter": 26,
+    "title": "SmartDépanneur, for Mom's Store",
+    "text": "and SmartDépanneur (my mom runs a store, so I wanted to help her out)."
+  },
+  {
+    "chapter": 27,
+    "title": "A Trilingual Property Platform",
+    "text": "A friend of my mom's who works as a real estate broker asked me to build a property listing site: Propriété En Vente — Trilingual Québec Property Platform."
+  },
+  {
+    "chapter": 28,
+    "title": "Still Looking for the Next Role",
+    "text": "Right now, I'm still looking for job opportunities."
+  }
+]

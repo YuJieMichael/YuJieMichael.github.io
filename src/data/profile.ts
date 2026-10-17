@@ -144,7 +144,6 @@ export const PROJECTS: Project[] = [
     },
     tags: ['React', 'Supabase', 'PostgreSQL', 'Express', 'Docker'],
     live: 'https://proprieteenvente.ca',
-    repo: 'https://github.com/YuJieMichael/Propriete-En-Vente',
     images: [{ chapter: 1 }, { chapter: 3 }, { chapter: 27 }],
   },
   {

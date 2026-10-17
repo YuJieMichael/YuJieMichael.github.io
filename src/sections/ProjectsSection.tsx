@@ -6,6 +6,8 @@ import SectionHeading from '../components/SectionHeading'
 import StoryImage from '../components/StoryImage'
 import { PROJECTS, type Project, type ProjectImage } from '../data/profile'
 import { useLanguage } from '../i18n/LanguageContext'
+import { useMediaQuery } from '../lib/useMediaQuery'
+import StoreAgentDemo from '../components/demos/StoreAgentDemo'
 
 export default function ProjectsSection() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -71,67 +73,84 @@ const linkClass =
 function ProjectCard({ project, index, progress, range, targetScale }: ProjectCardProps) {
   const scale = useTransform(progress, range, [1, targetScale])
   const { lang, t } = useLanguage()
+  // 宽屏：卡片钉住、层层叠起；手机：卡片按内容撑高，正常往下排
+  const stacked = useMediaQuery('(min-width: 768px)')
   const [col1a, col1b, col2] = project.images
 
+  // 标题、链接、描述、标签：普通卡片放在图片上面，演示卡片放进演示的左栏
+  const intro = (
+    <>
+      <div className="pj-head flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
+        <div className="min-w-0">
+          <p className="font-mono text-xs text-fox">
+            {String(index + 1).padStart(2, '0')} <span className="text-muted">/ {project.period[lang]}</span>
+          </p>
+          <h3 className="mt-1 font-display text-[clamp(1.75rem,3.4vw,3rem)] leading-tight text-ink">{project.name}</h3>
+          <p className="text-sm text-muted">{project.tagline[lang]}</p>
+        </div>
+        <div className="flex shrink-0 items-center gap-2">
+          {project.live && (
+            <a href={project.live} target="_blank" rel="noreferrer" className={linkClass}>
+              <ArrowUpRight size={14} /> {t.liveDemo}
+            </a>
+          )}
+          {project.repo && (
+            <a href={project.repo} target="_blank" rel="noreferrer" className={linkClass}>
+              <Github size={14} /> {t.sourceCode}
+            </a>
+          )}
+          {!project.live && !project.repo && (
+            <span className="rounded-full border border-ink/15 px-3 py-1.5 font-mono text-xs text-muted">{t.privateProject}</span>
+          )}
+        </div>
+      </div>
+
+      {/* 宽屏最多三行；演示卡片的介绍在左栏，空间够，不截断 */}
+      <p className={`pj-desc max-w-3xl text-sm leading-relaxed text-ink/80 md:text-base ${project.demo ? '' : 'md:line-clamp-3'}`}>
+        {project.description[lang]}
+      </p>
+      <ul className="flex flex-wrap gap-1.5">
+        {project.tags.map((tag) => (
+          <li key={tag} className="rounded-md bg-ink/[0.06] px-2 py-0.5 font-mono text-[11px] text-ink/75 md:text-xs">
+            {tag}
+          </li>
+        ))}
+      </ul>
+    </>
+  )
+
   return (
-    <div className="sticky top-24 flex h-[85vh] items-start justify-center md:top-28">
+    <div className="mb-6 md:sticky md:top-28 md:mb-0 md:flex md:h-[85vh] md:items-start md:justify-center">
       <motion.div
         data-spotlight
-        style={{ scale, top: `${index * 28}px` }}
-        className="pj-card spotlight relative flex h-[72vh] w-full origin-top flex-col gap-3 rounded-3xl border border-ink/15 bg-surface p-4 shadow-[0_-20px_60px_-30px_rgba(0,0,0,0.9)] sm:p-6 md:h-[70vh] md:gap-4 md:p-8"
+        style={stacked ? { scale, top: `${index * 28}px` } : undefined}
+        className="pj-card spotlight relative flex w-full origin-top flex-col gap-3 rounded-3xl border border-ink/15 bg-surface p-4 shadow-[0_-20px_60px_-30px_rgba(0,0,0,0.9)] sm:p-6 md:h-[70vh] md:gap-4 md:p-8"
       >
-        <div className="pj-head flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
-          <div className="min-w-0">
-            <p className="font-mono text-xs text-fox">
-              {String(index + 1).padStart(2, '0')} <span className="text-muted">/ {project.period[lang]}</span>
-            </p>
-            <h3 className="mt-1 font-display text-[clamp(1.75rem,3.4vw,3rem)] leading-tight text-ink">{project.name}</h3>
-            <p className="text-sm text-muted">{project.tagline[lang]}</p>
-          </div>
-          <div className="flex shrink-0 items-center gap-2">
-            {project.live && (
-              <a href={project.live} target="_blank" rel="noreferrer" className={linkClass}>
-                <ArrowUpRight size={14} /> {t.liveDemo}
-              </a>
-            )}
-            {project.repo && (
-              <a href={project.repo} target="_blank" rel="noreferrer" className={linkClass}>
-                <Github size={14} /> {t.sourceCode}
-              </a>
-            )}
-            {!project.live && !project.repo && (
-              <span className="rounded-full border border-ink/15 px-3 py-1.5 font-mono text-xs text-muted">{t.privateProject}</span>
-            )}
-          </div>
-        </div>
-
-        <p className="pj-desc max-w-3xl text-sm md:line-clamp-3 leading-relaxed text-ink/80 md:text-base">{project.description[lang]}</p>
-        <ul className="flex flex-wrap gap-1.5">
-          {project.tags.map((tag) => (
-            <li key={tag} className="rounded-md bg-ink/[0.06] px-2 py-0.5 font-mono text-[11px] text-ink/75 md:text-xs">
-              {tag}
-            </li>
-          ))}
-        </ul>
-
-        {project.phones ? (
-          <div className="grid min-h-0 flex-1 grid-cols-3 gap-3 md:gap-4">
-            {project.images.map((img, i) => (
-              <CardImage key={i} image={img} alt={project.name} className="h-full min-h-0 w-full" />
-            ))}
-          </div>
+        {project.demo === 'store-agent' ? (
+          <StoreAgentDemo intro={intro} className="min-h-0 md:flex-1" />
         ) : (
-          <div className="flex min-h-0 flex-1 gap-3 md:gap-4">
-            {/* Col1：40%，两张上下堆叠 */}
-            <div className="flex min-h-0 w-[40%] flex-col gap-3 md:gap-4">
-              <CardImage image={col1a} alt={project.name} className="min-h-0 w-full flex-1" />
-              <CardImage image={col1b} alt={project.name} className="min-h-0 w-full flex-1" />
-            </div>
-            {/* Col2：60%，一张高图 */}
-            <div className="min-h-0 flex-1">
-              <CardImage image={col2} alt={project.name} size="lg" className="h-full w-full" />
-            </div>
-          </div>
+          <>
+            {intro}
+            {project.phones ? (
+              <div className="grid h-[62vw] grid-cols-3 gap-3 md:h-auto md:min-h-0 md:flex-1 md:gap-4">
+                {project.images.map((img, i) => (
+                  <CardImage key={i} image={img} alt={project.name} className="h-full min-h-0 w-full" />
+                ))}
+              </div>
+            ) : (
+              <div className="flex h-[58vw] gap-3 md:h-auto md:min-h-0 md:flex-1 md:gap-4">
+                {/* Col1：40%，两张上下堆叠 */}
+                <div className="flex min-h-0 w-[40%] flex-col gap-3 md:gap-4">
+                  <CardImage image={col1a} alt={project.name} className="min-h-0 w-full flex-1" />
+                  <CardImage image={col1b} alt={project.name} className="min-h-0 w-full flex-1" />
+                </div>
+                {/* Col2：60%，一张高图 */}
+                <div className="min-h-0 flex-1">
+                  <CardImage image={col2} alt={project.name} size="lg" className="h-full w-full" />
+                </div>
+              </div>
+            )}
+          </>
         )}
       </motion.div>
     </div>

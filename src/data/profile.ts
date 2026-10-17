@@ -128,6 +128,8 @@ export interface Project {
   images: [ProjectImage, ProjectImage, ProjectImage]
   /** 竖屏手机截图：三张并排等宽显示，不用 40/60 双栏 */
   phones?: boolean
+  /** 用可交互的演示代替三张图 */
+  demo?: 'store-agent'
 }
 
 const base = import.meta.env.BASE_URL
@@ -158,6 +160,7 @@ export const PROJECTS: Project[] = [
     tags: ['Next.js', 'NestJS', 'PostgreSQL', 'OpenAI API', 'MCP', 'Docker'],
     repo: 'https://github.com/YuJieMichael/smartDepanneur',
     images: [{ chapter: 16 }, { chapter: 28 }, { chapter: 26 }],
+    demo: 'store-agent',
   },
   {
     name: '山河策 · Three Kingdoms',

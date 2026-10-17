@@ -105,7 +105,7 @@ function ProjectCard({ project, index, progress, range, targetScale }: ProjectCa
           </div>
         </div>
 
-        <p className="line-clamp-3 max-w-3xl text-sm leading-relaxed text-ink/80 md:text-base">{project.description[lang]}</p>
+        <p className="pj-desc max-w-3xl text-sm md:line-clamp-3 leading-relaxed text-ink/80 md:text-base">{project.description[lang]}</p>
         <ul className="flex flex-wrap gap-1.5">
           {project.tags.map((tag) => (
             <li key={tag} className="rounded-md bg-ink/[0.06] px-2 py-0.5 font-mono text-[11px] text-ink/75 md:text-xs">

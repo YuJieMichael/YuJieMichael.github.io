@@ -153,7 +153,7 @@ export const PROJECTS: Project[] = [
     description: {
       zh: '多语言便利店管理 AI Agent：8 个 OpenAI 工具读取实时业务数据；下采购单、改库存前需人工审批并留审计记录；视觉识别发票，匹配商品并标出涨价超过 5% 的项目；通过 MCP 接入 Claude Desktop。133 题三语评测集把兜底 Agent 的正确率从 42% 提到 90%。',
       en: 'Store-management AI agent: 8 OpenAI tools on live data, human approval and audit logs before orders or stock changes, vision invoice matching that flags 5%+ price hikes, and MCP for Claude Desktop. A 133-question trilingual eval lifted fallback accuracy from 42% to 90%.',
-      fr: "Agent IA de gestion : 8 outils OpenAI sur les données en direct, approbation humaine et audit avant commandes ou changements de stock, factures lues par vision (hausses de 5 %+ signalées), MCP pour Claude Desktop. Évaluation trilingue de 133 questions : justesse de 42 % à 90 %.",
+      fr: "Agent IA de gestion : 8 outils OpenAI sur les données en direct, approbation humaine et audit avant commandes ou changements de stock, factures lues par vision (hausses de 5 %+ signalées), MCP pour Claude Desktop. Évaluation trilingue de 133 questions : justesse de 42 % à 90 %.",
     },
     tags: ['Next.js', 'NestJS', 'PostgreSQL', 'OpenAI API', 'MCP', 'Docker'],
     repo: 'https://github.com/YuJieMichael/smartDepanneur',

@@ -19,12 +19,14 @@ import StarfieldBackground from './components/StarfieldBackground'
 import InkCanvas from './components/InkCanvas'
 import { StoryModalProvider } from './components/StoryModal'
 import { initCloth } from './effects/cloth'
+import { watchLayoutForScrollTrigger } from './effects/gsap'
 import { LanguageProvider } from './i18n/LanguageContext'
 import { CommandProvider } from './components/SiteCommand'
 
 export default function App() {
   useEffect(() => initCloth(), [])
   useEffect(() => initSpotlight(), [])
+  useEffect(() => watchLayoutForScrollTrigger(), [])
 
   return (
     <LanguageProvider>

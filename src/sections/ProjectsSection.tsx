@@ -39,7 +39,7 @@ export default function ProjectsSection() {
 
   return (
     <section ref={root} id="work" className="relative mx-auto max-w-6xl px-4 pb-16 pt-12 sm:px-6 md:px-12 md:pt-16">
-      <SectionHeading index="02" text={t.workLabel} className="mb-10 px-1 md:mb-14" />
+      <SectionHeading index="01" text={t.workLabel} className="mb-10 px-1 md:mb-14" />
       <div ref={containerRef} className="relative">
         {PROJECTS.map((project, index) => {
           const targetScale = 1 - (totalCards - 1 - index) * 0.03

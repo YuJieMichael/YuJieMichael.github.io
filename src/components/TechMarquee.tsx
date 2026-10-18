@@ -3,7 +3,7 @@ import { gsap, prefersReducedMotion, ScrollTrigger, useGSAP } from '../effects/g
 
 const ROWS = [
   ['React', 'TypeScript', 'Next.js', 'NestJS', 'PostgreSQL', 'Docker', 'Supabase', 'Prisma'],
-  ['Front-end', 'Full-stack', 'Montréal', 'EN · FR · 中文', 'REST APIs', 'RBAC', 'CI/CD'],
+  ['Full-stack', 'AI agents', 'MCP', 'Montréal', 'EN · FR · 中文', 'REST APIs', 'CI/CD'],
 ]
 
 /**

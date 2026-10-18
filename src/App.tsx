@@ -39,12 +39,12 @@ export default function App() {
       <main className="relative z-[1] min-h-screen font-sans" style={{ overflowX: 'clip' }}>
         <HeroSection />
         <ContentsSection />
-        <AboutSection />
-        <TechMarquee />
         <ProjectsSection />
-        <QuoteSection />
         <ExperienceSection />
         <SkillsSection />
+        <AboutSection />
+        <TechMarquee />
+        <QuoteSection />
         <StorySection />
         <ContactSection />
       </main>

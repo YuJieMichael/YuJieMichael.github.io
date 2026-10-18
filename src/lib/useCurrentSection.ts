@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
 
 /** 页面从上到下的各节 id（也是「页码」的顺序） */
-export const SECTIONS = ['home', 'contents', 'about', 'work', 'quote', 'experience', 'skills', 'story', 'contact'] as const
+export const SECTIONS = ['home', 'contents', 'work', 'experience', 'skills', 'about', 'quote', 'story', 'contact'] as const
 export type SectionId = (typeof SECTIONS)[number]
 
 /** 当前滚到哪一节：取视口上三分之一处所在的那一节 */

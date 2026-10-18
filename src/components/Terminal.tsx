@@ -13,7 +13,7 @@ export default function Terminal({ start = true }: { start?: boolean }) {
   const { t } = useLanguage()
   const lines: Line[] = [
     { cmd: 'whoami', out: `Yujie Xie — ${t.heroRole}` },
-    { cmd: 'cat stack.txt', out: 'React · TypeScript · Next.js · NestJS · PostgreSQL · Docker' },
+    { cmd: 'cat stack.txt', out: 'React · TypeScript · Next.js · NestJS · PostgreSQL · OpenAI API · MCP' },
     { cmd: 'echo $LANGUAGES', out: 'English · Français · 中文' },
     { cmd: 'status --job', out: `● ${t.available}` },
   ]

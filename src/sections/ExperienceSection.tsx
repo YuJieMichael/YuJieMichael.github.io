@@ -42,7 +42,7 @@ export default function ExperienceSection() {
       <div aria-hidden className="pointer-events-none absolute left-1/2 top-40 -z-[1] w-screen -translate-x-1/2 overflow-hidden">
         <p className="xp-years outline-text whitespace-nowrap font-display text-[28vw] leading-none tracking-[-0.03em]">2020 — 2022 — 2024 — 2026</p>
       </div>
-      <SectionHeading index="03" text={t.experienceTitle} className="mb-12 md:mb-16" />
+      <SectionHeading index="02" text={t.experienceTitle} className="mb-12 md:mb-16" />
 
       <ol className="xp-list relative flex flex-col gap-14 pl-8 md:pl-12">
         <span aria-hidden className="absolute left-[5px] top-1 h-full w-px bg-ink/10" />

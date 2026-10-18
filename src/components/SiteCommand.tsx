@@ -72,10 +72,10 @@ function SitePalette({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
 
     const nav: CommandItem[] = [
       { id: 'home', title: t.navHome, icon: <Home className={icon} /> },
-      { id: 'about', title: t.aboutLabel, icon: <User className={icon} /> },
       { id: 'work', title: t.workLabel, icon: <Layers className={icon} /> },
       { id: 'experience', title: t.experienceTitle, icon: <Briefcase className={icon} /> },
       { id: 'skills', title: t.skillsTitle, icon: <Code2 className={icon} /> },
+      { id: 'about', title: t.aboutLabel, icon: <User className={icon} /> },
       { id: 'story', title: t.storyLabel, icon: <BookOpen className={icon} /> },
       { id: 'contact', title: t.navContact, icon: <Mail className={icon} /> },
     ].map((c) => ({ ...c, id: `nav-${c.id}`, category: t.catNavigate, keywords: c.id, action: go(c.id) }))

@@ -14,9 +14,9 @@ export const CONTACT = {
 }
 
 export const SUMMARY: T = {
-  zh: '我是现居蒙特利尔的全栈开发者，擅长以前端为核心、从界面到 API 再到数据库的完整 Web 应用开发。常用 React、TypeScript、Next.js 和 NestJS，喜欢把需求文档和客户设计稿变成易维护、可上线的功能。会说中文、英文和法语。',
-  en: "I'm a Full Stack Developer in Montréal, building front-end-focused web apps end to end — from UI and API integration to database-driven workflows. I work mostly with React, TypeScript, Next.js and NestJS, and I enjoy turning requirement documents and client designs into maintainable, production-ready features. I speak English, French and Mandarin.",
-  fr: "Développeur full stack à Montréal, je conçois des applications web centrées sur le front-end, de l'interface à l'intégration d'API et aux flux de données. J'utilise surtout React, TypeScript, Next.js et NestJS, et j'aime transformer des documents d'exigences et des maquettes en fonctionnalités maintenables, prêtes pour la production. Je parle français, anglais et mandarin.",
+  zh: '我是 ÉTS 软件工程专业的学生，也是现居蒙特利尔的全栈开发者，有 2 年以上全栈开发经验：从界面到 API 再到数据库，独立做过上线给真实客户使用的 Web 应用。近期专注基于大模型的应用——工具调用 Agent、人工审批流程、MCP 集成和自动化评测。常用 React、TypeScript、Next.js 和 NestJS。会说中文、英文和法语。',
+  en: "I'm a software engineering student at ÉTS and a Full Stack Developer in Montréal with 2+ years of experience building web apps end to end — from UI and APIs to database-driven workflows, including production systems for real clients. Lately I've been building LLM-powered applications: tool-calling agents, human-in-the-loop workflows, MCP integrations and automated evaluations. I work mostly with React, TypeScript, Next.js and NestJS, and I speak English, French and Mandarin.",
+  fr: "Étudiant en génie logiciel à l'ÉTS et développeur full stack à Montréal, j'ai plus de 2 ans d'expérience à concevoir des applications web de bout en bout, de l'interface aux API et aux flux de données, y compris des systèmes en production pour de vrais clients. Récemment, je développe des applications basées sur les LLM : agents avec appels d'outils, validation humaine, intégrations MCP et évaluations automatisées. J'utilise surtout React, TypeScript, Next.js et NestJS. Je parle français, anglais et mandarin.",
 }
 
 export interface Job {
@@ -28,6 +28,24 @@ export interface Job {
 }
 
 export const EXPERIENCE: Job[] = [
+  {
+    role: { zh: '全栈 & AI 开发者', en: 'Full Stack & AI Developer', fr: 'Développeur full stack & IA' },
+    company: 'Freelance',
+    place: { zh: '蒙特利尔', en: 'Montréal, QC', fr: 'Montréal, QC' },
+    period: { zh: '2026.01 – 至今', en: 'Jan 2026 – Present', fr: "janv. 2026 – aujourd'hui" },
+    points: [
+      {
+        zh: '为魁北克一位 RE/MAX 房产经纪人设计并上线 proprieteenvente.ca，一个多语言房源平台。',
+        en: 'Designed and launched proprieteenvente.ca, a multilingual property-listing platform for a Québec RE/MAX broker.',
+        fr: 'Conception et mise en ligne de proprieteenvente.ca, une plateforme d’annonces immobilières multilingue pour un courtier RE/MAX du Québec.',
+      },
+      {
+        zh: '交付房价估算、房贷计算、卖家工作台和管理员审核流程；从需求到部署全程负责（React、Express、Supabase、Docker）。',
+        en: 'Delivered property-price estimation, mortgage calculation, seller workspaces and admin review workflows; owned development from requirements through deployment (React, Express, Supabase, Docker).',
+        fr: 'Livraison de l’estimation de prix, du calcul hypothécaire, des espaces vendeurs et de la révision par l’administration ; responsable du développement, des exigences au déploiement (React, Express, Supabase, Docker).',
+      },
+    ],
+  },
   {
     role: { zh: '全栈开发工程师', en: 'Full Stack Developer', fr: 'Développeur full stack' },
     company: 'Orispark',
@@ -89,7 +107,7 @@ export const EDUCATION: School[] = [
     period: '2024 – 2026',
   },
   {
-    degree: { zh: '计算机科学技术（DEP）', en: 'Computer Science Technology (DEP)', fr: "Techniques de l'informatique (DEP)" },
+    degree: { zh: '计算机科学技术（DEC）', en: 'Computer Science Technology (DEC)', fr: "Techniques de l'informatique (DEC)" },
     school: { zh: 'LaSalle 学院', en: 'College LaSalle', fr: 'Collège LaSalle' },
     period: '2020 – 2023',
   },
@@ -97,12 +115,16 @@ export const EDUCATION: School[] = [
 
 export const SKILLS: { group: T; items: string[] }[] = [
   {
+    group: { zh: 'AI / LLM', en: 'AI / LLM', fr: 'IA / LLM' },
+    items: ['OpenAI API', 'Tool calling', 'Structured outputs', 'Vision', 'AI agents', 'MCP', 'LLM evaluations'],
+  },
+  {
     group: { zh: '前端', en: 'Front end', fr: 'Front-end' },
     items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Redux', 'Zustand', 'Material UI', 'Ant Design', 'Tailwind CSS', 'Responsive design', 'Multilingual UI'],
   },
   {
     group: { zh: '后端', en: 'Back end', fr: 'Back-end' },
-    items: ['NestJS', 'Node.js', 'Express', 'REST APIs', 'JWT', 'RBAC', 'Python API integration', 'Axios'],
+    items: ['NestJS', 'Node.js', 'Express', 'Python', 'REST APIs', 'JWT', 'RBAC', 'Axios'],
   },
   {
     group: { zh: '数据', en: 'Data', fr: 'Données' },
@@ -110,7 +132,7 @@ export const SKILLS: { group: T; items: string[] }[] = [
   },
   {
     group: { zh: '工具与交付', en: 'Tooling & delivery', fr: 'Outils et livraison' },
-    items: ['Docker', 'Git', 'GitHub Actions', 'CI/CD', 'Postman', 'Automated tests'],
+    items: ['Docker', 'Git', 'GitHub Actions', 'CI/CD', 'Postman', 'Jest', 'Automated tests'],
   },
 ]
 

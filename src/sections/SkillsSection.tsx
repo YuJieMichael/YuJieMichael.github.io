@@ -27,7 +27,7 @@ export default function SkillsSection() {
 
   return (
     <section ref={root} id="skills" className="mx-auto max-w-6xl px-5 pb-20 sm:px-8 md:px-12 md:pb-28">
-      <SectionHeading index="04" text={t.skillsTitle} className="mb-8 md:mb-12" />
+      <SectionHeading index="03" text={t.skillsTitle} className="mb-8 md:mb-12" />
       {SKILLS.map((g, gi) => (
         <div key={g.group.en} className="sk-row grid gap-3 border-t border-ink/15 py-6 md:grid-cols-[200px_1fr] md:gap-10 md:py-9">
           <h3 className="sk-label font-mono text-xs uppercase tracking-[0.18em] text-fox md:pt-3">

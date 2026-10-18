@@ -17,10 +17,10 @@ export default function ContentsSection() {
   const preview = useRef<HTMLDivElement>(null)
 
   const rows = [
-    { id: 'about', title: t.aboutLabel, kicker: t.kickerAbout, img: `${base}avatar.webp` },
     { id: 'work', title: t.workLabel, kicker: t.kickerWork(PROJECTS.length), img: `${base}projects/three-kingdoms/world.webp` },
     { id: 'experience', title: t.experienceTitle, kicker: t.kickerExperience, img: chapterImage(18, 'sm') },
     { id: 'skills', title: t.skillsTitle, kicker: t.kickerSkills, img: chapterImage(20, 'sm') },
+    { id: 'about', title: t.aboutLabel, kicker: t.kickerAbout, img: `${base}avatar.webp` },
     { id: 'story', title: t.storyLabel, kicker: t.kickerStory(CHAPTER_COUNT), img: chapterImage(1, 'sm') },
     { id: 'contact', title: t.navContact, kicker: t.kickerContact, img: chapterImage(28, 'sm') },
   ]

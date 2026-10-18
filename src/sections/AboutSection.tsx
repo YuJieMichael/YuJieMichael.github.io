@@ -39,7 +39,7 @@ export default function AboutSection() {
   ]
   return (
     <section ref={root} id="about" className="mx-auto max-w-6xl px-5 py-20 sm:px-8 md:px-12 md:py-28">
-      <SectionHeading index="01" text={t.aboutLabel} />
+      <SectionHeading index="04" text={t.aboutLabel} />
       <div className="mt-10 grid items-start gap-10 md:mt-14 md:grid-cols-[1fr_220px] md:gap-16">
         <AnimatedText
           key={lang}
